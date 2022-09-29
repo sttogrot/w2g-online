@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/w2g-online/static/css/main.1941ecbb.css",
+    "main.js": "/w2g-online/static/js/main.5a099636.js",
+    "static/js/787.07de7a0d.chunk.js": "/w2g-online/static/js/787.07de7a0d.chunk.js",
+    "index.html": "/w2g-online/index.html",
+    "main.1941ecbb.css.map": "/w2g-online/static/css/main.1941ecbb.css.map",
+    "main.5a099636.js.map": "/w2g-online/static/js/main.5a099636.js.map",
+    "787.07de7a0d.chunk.js.map": "/w2g-online/static/js/787.07de7a0d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1941ecbb.css",
+    "static/js/main.5a099636.js"
+  ]
+}
