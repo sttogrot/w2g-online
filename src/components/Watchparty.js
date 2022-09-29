@@ -214,7 +214,7 @@ const Watchparty = () => {		// room siplay with userlist of rpp
 						<h1 class="party_title">Raum: {roomname} </h1>
 						<button onClick={event => handleButton2()} className="link_leave" aria-live="polite">Verlassen</button>
 						<h1 class="party_title">Party-Leader: {roomLeaderName} </h1>
-						<h1 class="party_title">Raumlink: https://domolka17.github.io/#/Watchparty/{roomname} </h1>
+						<h1 class="party_title">Raumlink: https://sttogrot.github.io/#/Watchparty/{roomname} </h1>
 					</div>
 					<div class="links">
 						<input type="text" name="roomname" class="link_box" placeholder="Link einfügen" value={link} onChange={(change) => setLink(change.target.value)}></input>
