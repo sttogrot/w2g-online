@@ -1,0 +1,84 @@
+.Chatbox {
+    overflow-wrap: break-word;
+}
+
+.messageBox {
+    color: #ffffff;
+    overflow-y: scroll;
+    overflow-wrap: break-word;
+    width: 57rem;
+    height: 25rem;
+    margin-left: -2.5rem;
+    font-weight: bold;
+}
+
+.ChatSubmitbar {
+    margin-top: 1rem;
+}
+
+.message_submit {
+    width: 46rem;
+    height: 1.7rem;
+    font-size: 1rem;
+    font-weight: bold;  
+}
+
+.message_submit_button {
+    height: 2rem;
+    width: 8rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-color: #AAAAAA;
+    color: #ffffff;
+}
+
+.message_submit_button:hover {
+    background-color: #5e5e5e;
+    font-weight: bold;
+    color: #ffffff;
+    transition-duration: 300ms;
+}
+
+@media screen and (max-width: 960px) {
+
+    .Chatbox {
+        overflow-wrap: break-word;
+    }
+
+    .messageBox {
+        color: #ffffff;
+        overflow-y: scroll;
+        overflow-wrap: break-word;
+        width: 24rem;
+        height: 25rem;
+        margin-left: -2.5rem;
+        font-weight: bold;
+    }
+
+    .ChatSubmitbar {
+        margin-top: 1rem;
+    }
+
+    .message_submit {
+        width: 13rem;
+        height: 1.7rem;
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+
+    .message_submit_button {
+        height: 2rem;
+        width: 4rem;
+        font-size: 0.8rem;
+        font-weight: bold;
+        background-color: #AAAAAA;
+        color: #ffffff;
+    }
+
+    .message_submit_button:hover {
+        background-color: #5e5e5e;
+        font-weight: bold;
+        color: #ffffff;
+        transition-duration: 300ms;
+    }
+}
