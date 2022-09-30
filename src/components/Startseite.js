@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import "./css/Startseite.css";
 import { useNavigate} from "react-router-dom"
 import { createRoom } from './Controller/RoomController';
@@ -7,6 +7,9 @@ import { createRoom } from './Controller/RoomController';
 
 
 const Home = () => {
+	useEffect(()=>{
+		console.log('Version 1')
+	},[])
 	const navigate = useNavigate()
 	const handleButton1 = () => {		// gives button its funktion, create room
 		if(sessionStorage.getItem('id')==null){
