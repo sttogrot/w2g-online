@@ -49,7 +49,7 @@ const Home = () => {
 									Yeet-To-Speech (Coming Soon™)
 								</li>
 								<li>
-									Untertitel (Coming Soon™)
+									Test (Coming Soon™)
 								</li>
 							</ul>
 						</p>
