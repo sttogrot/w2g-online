@@ -11,6 +11,8 @@ const Help = () => {
 				</div>
 				<div>
 					<ul class="controls">
+						<p class="help_text">Damit ein synchrones Abspielen der Videos gewährleistet werden kann, besitzt jede Watchparty einen Party-Leader, welcher die Fähigkeit hat, durch Stoppen des Videos dieses zu synchronisieren</p>
+						<p class="help_text">Die Syncronisation erfolgt aller 3 Sekunden weshalb nach Interaktion mit dem Videoplayer bis zu 3 Sekunden gewartet werden muss.</p>
 						<h3>Allgemein</h3>
 						<li class="li">
 							Vollbildmodus ein/aus: F
