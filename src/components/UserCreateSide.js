@@ -9,7 +9,7 @@ const UserCreatrSide = () => {
     const navigate = useNavigate()
     const [check, setCheck]=useState()
     const [redirect, setRedirect]=useState(sessionStorage.getItem('redirect'))
-    const [find, setFind]=useState([])
+    const [find, setFind]=useState()
     const [rooms, setrooms]=useState([])
     
 
@@ -18,6 +18,7 @@ const UserCreatrSide = () => {
         setRedirect(sessionStorage.getItem('redirect'))
        }
        else{
+        console.log('update Test')
         console.log(redirect)
         getRooms()
        }
@@ -53,8 +54,6 @@ const UserCreatrSide = () => {
                 navigate('/*')
             }
 
-
-           
         }
         else{
             createUser(inp)
@@ -68,7 +67,7 @@ const UserCreatrSide = () => {
     }
 
     const checker=()=>{
-        if(find == undefined)
+        if(find.name == undefined)
         {
             console.log(false)
             return false
@@ -94,7 +93,7 @@ const UserCreatrSide = () => {
           .then((response) => {
             console.log(response.rooms)
             setrooms(response.rooms)
-         }).then(finder())
+         }).then(setFind(finder()))
     }
         
 
