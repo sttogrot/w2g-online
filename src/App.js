@@ -12,6 +12,7 @@ import { leaveRoom } from "./components/Controller/RoomController";
 import UserCreatrSide from "./components/UserCreateSide";
 import { NotFound } from "./components/NotFound";
 import Chat from "./components/Chat";
+import RoomAuth from "./components/RoomAuth";
 
 
 function App() {
@@ -50,6 +51,7 @@ function App() {
         <Route exact path="/Room" element={<Room />} />
         <Route exact path="/Watchparty/:roomid" element={<Watchparty />} />
         <Route exact path="/UserCreateSide" element={<UserCreatrSide />} />
+        <Route exact path="/RoomAuth" element={<RoomAuth />} />
         <Route exact path="/Chat" element={<Chat />} />
         <Route exact path="*" element={<NotFound />} />
       </Routes>
